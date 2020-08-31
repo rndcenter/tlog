@@ -6,17 +6,11 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/nikandfor/tlog)](https://goreportcard.com/report/github.com/nikandfor/tlog)
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/nikandfor/tlog?sort=semver)
 
-# tlog
-TraceLog - distributed tracing, logging and metrics.
+# TraceLog
+TraceLog — blazing fast and minimal overhead tracing + logging + metrics library. With distributed tracing (like Google Dapper) out of the box.
+Hassle-Free replacement for ["log"](https://pkg.go.dev/log?tab=doc) and ["golang.org/x/net/trace"](https://pkg.go.dev/golang.org/x/net/trace?tab=doc) packages. 
 
-Explore [examples](examples).
-
-Idea and most of the concepts were designated while working on distributed systems in [Yuri Korzhenevsky R&D Center](https://www.rnd.center).
-
-# Status
-It evolves as I use it. I still can change anything, but for now I'm quiet satisfied with most of details.
-
-It's tested a bit but bugs are possible. Please report if find.
+Idea and most of the concepts were created while working on distributed systems in [Yuri Korzhenevsky R&D Center](https://www.rnd.center).
 
 # Logger
 
